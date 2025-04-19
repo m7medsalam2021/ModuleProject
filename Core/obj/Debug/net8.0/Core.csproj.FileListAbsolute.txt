@@ -1,0 +1,17 @@
+C:\Users\Sallam\source\repos\ProjectModule\Core\bin\Debug\net8.0\Core.deps.json
+C:\Users\Sallam\source\repos\ProjectModule\Core\bin\Debug\net8.0\Core.dll
+C:\Users\Sallam\source\repos\ProjectModule\Core\bin\Debug\net8.0\Core.pdb
+C:\Users\Sallam\source\repos\ProjectModule\Core\obj\Debug\net8.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sallam\source\repos\ProjectModule\Core\obj\Debug\net8.0\Core.AssemblyInfoInputs.cache
+C:\Users\Sallam\source\repos\ProjectModule\Core\obj\Debug\net8.0\Core.AssemblyInfo.cs
+C:\Users\Sallam\source\repos\ProjectModule\Core\obj\Debug\net8.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Sallam\source\repos\ProjectModule\Core\obj\Debug\net8.0\Core.dll
+C:\Users\Sallam\source\repos\ProjectModule\Core\obj\Debug\net8.0\refint\Core.dll
+C:\Users\Sallam\source\repos\ProjectModule\Core\obj\Debug\net8.0\Core.pdb
+C:\Users\Sallam\source\repos\ProjectModule\Core\obj\Debug\net8.0\ref\Core.dll
+C:\Users\Sallam\source\repos\ProjectModule\Core\bin\Debug\net8.0\Domain.dll
+C:\Users\Sallam\source\repos\ProjectModule\Core\bin\Debug\net8.0\InfraStructure.dll
+C:\Users\Sallam\source\repos\ProjectModule\Core\bin\Debug\net8.0\Domain.pdb
+C:\Users\Sallam\source\repos\ProjectModule\Core\bin\Debug\net8.0\InfraStructure.pdb
+C:\Users\Sallam\source\repos\ProjectModule\Core\obj\Debug\net8.0\Core.csproj.AssemblyReference.cache
+C:\Users\Sallam\source\repos\ProjectModule\Core\obj\Debug\net8.0\Core.csproj.Up2Date

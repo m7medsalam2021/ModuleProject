@@ -1,0 +1,78 @@
+﻿
+@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment _webHost;
+@model IEnumerable<Post>
+@{
+    ViewData["Title"] = "Posts";
+}
+<section id="latest-posts" class="latest-posts section">
+
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+        <h2>Latest Posts</h2>
+        <div><span>Check Our</span> <span class="description-title">Latest Posts</span></div>
+    </div><!-- End Section Title -->
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="text-center my-2">
+            <a asp-action="Index" class="rounded p-2 text-white bg-danger badage bg-primary me-2">All</a>
+            @foreach (var category in ViewBag.Categories)
+            {
+                <a asp-action="Index" asp-route-categoryId="@category.Id" class="rounded p-2 text-white bg-danger badage bg-primary me-2">@category.Name</a>
+            }
+        </div>
+        @if (!Model.Any())
+        {
+            <div class="alert alert-danger my-4 text-center" role="alert">
+                No Post Found For this Category
+            </div>
+        }
+        <div class="row gy-4">
+            @foreach(var post in Model)
+            {
+                <div class="col-lg-4">
+                    <article>
+                        @{
+                            string filePath = System.IO.Path.Combine(_webHost.WebRootPath, post.Image.TrimStart('~','/'));
+                            if (!System.IO.File.Exists(filePath))
+                            {
+                                post.Image = "Images/defaultImages.jpg";
+                            }
+                        }
+                            <div class="post-img position-relative">
+                                <img src="@post.Image" alt="" class="img-fluid">
+                                <div class="position-absolute top-0 end-0">
+                                    <a asp-action="Edit" asp-route-id="@post.Id"><i class="bi bi-pencil btn btn-primary"></i></a>
+                                    <a asp-action="Delete" asp-route-id="@post.Id"><i class="bi bi-trash3-fill btn btn-danger"></i></a>
+
+                                </div>
+                            </div>
+
+                            <p class="post-category">@post.Category.Name</p> 
+
+                            <h2 class="title">
+                                @post.Title
+                            </h2>
+                            <p>@post.Content</p>
+
+                            <div class="d-flex align-items-center">
+                                <img src="~/assets/img/person/person-f-12.webp" alt="" class="img-fluid post-author-img flex-shrink-0">
+                                <div class="post-meta">
+                                    <p class="post-author">Maria Doe</p>
+                                    <p class="post-date">
+                                        @post.CreatedAt
+                                    </p>
+                                    <a asp-action="Details" asp-route-id="@post.Id">More</a>
+                                </div>
+                            </div>
+
+                        </article>
+                    </div><!-- End post list item -->
+                }
+
+
+
+            </div>
+
+    </div>
+
+</section><!-- /Latest Posts Section -->

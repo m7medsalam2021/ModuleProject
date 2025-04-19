@@ -1,0 +1,17 @@
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\bin\Debug\net8.0\InfraStructure.deps.json
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\bin\Debug\net8.0\InfraStructure.dll
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\bin\Debug\net8.0\InfraStructure.pdb
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\obj\Debug\net8.0\InfraStructure.csproj.AssemblyReference.cache
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\obj\Debug\net8.0\InfraStructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\obj\Debug\net8.0\InfraStructure.AssemblyInfoInputs.cache
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\obj\Debug\net8.0\InfraStructure.AssemblyInfo.cs
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\obj\Debug\net8.0\InfraStructure.csproj.CoreCompileInputs.cache
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\obj\Debug\net8.0\InfraStructure.dll
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\obj\Debug\net8.0\refint\InfraStructure.dll
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\obj\Debug\net8.0\InfraStructure.pdb
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\obj\Debug\net8.0\ref\InfraStructure.dll
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\bin\Debug\net8.0\InfraStructure.runtimeconfig.json
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\bin\Debug\net8.0\Domain.dll
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\bin\Debug\net8.0\Domain.pdb
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\obj\Debug\net8.0\InfraStr.570FDCE2.Up2Date
+C:\Users\Sallam\source\repos\ProjectModule\InfraStructure\obj\Debug\net8.0\InfraStructure.genruntimeconfig.cache

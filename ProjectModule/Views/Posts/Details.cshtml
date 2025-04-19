@@ -1,0 +1,26 @@
+﻿@inject Microsoft.AspNetCore.Hosting.IWebHostEnvironment _webHost;
+@model Post
+@{
+    ViewData["Title"] = "Details";
+}
+
+@{
+    string filePath = System.IO.Path.Combine(_webHost.WebRootPath, Model.Image.TrimStart('~', '/'));
+    if (!System.IO.File.Exists(filePath))
+    {
+        Model.Image = "Images/defaultImages.jpg";
+    }
+}
+<h1>Details</h1>
+
+<div class="card">
+  <div class="card-header">
+    Post - @Model.Id
+  </div>
+  <div class="card-body">
+      <img src="~/@Model.Image" alt="img" class="w-25"/>
+    <h5 class="card-title">@Model.Title</h5>
+    <p class="card-text">@Model.Content</p>
+    <a asp-controller="Posts" asp-action="Index" class="btn btn-primary">Go to List</a>
+  </div>
+</div>

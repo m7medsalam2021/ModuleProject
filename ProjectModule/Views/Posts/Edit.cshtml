@@ -1,0 +1,21 @@
+﻿@model Post
+@{
+    ViewData["Title"] = "Edit";
+}
+<h1>Edit</h1>
+
+
+<form asp-controller="Posts" asp-action="Edit" method="post">
+    <div class="form-group">
+        <label for="title">Title</label>
+        <input asp-for="Title" type="text" class="form-control" id="title" name="title" placeholder="Enter Title">
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label for="content">Content</label>
+        <input asp-for="Content" type="text" class="form-control" id="content" name="content" placeholder="Enter Content"></input>
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Submit</button>
+    <a asp-action="Index" class="btn btn-primary mt-1">Back To List</a>
+</form>
